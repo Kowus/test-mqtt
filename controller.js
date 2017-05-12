@@ -5,7 +5,7 @@ var garageState = '';
 var connected = false
 
 client.on('connect', () => {
-    client.subscribe('garage/conected');
+    client.subscribe('garage/connected');
     client.subscribe('garage/state');
 })
 
